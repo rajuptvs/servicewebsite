@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#slides{
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideBg 10s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image:  url("images/1.jpeg");
+}
+#slides1{
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideBg1 10s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image:  url("images/1.jpeg");
+}
+#slidesbr{
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideBr 10s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image:  url("images/Branding/1.jpg");
+}
+
+#slidesWed{
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideWed 10s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image:  url("images/wedding/1.jpg");
+}
+
+#slidesPort{
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slidePort 10s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image:  url("images/Model/7.jpg");
+}
+#slidesKid{
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideKid 10s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image:  url("images/kids/1.jpg");
+}
+
+
+@keyframes slideBg {
+	
+	0%{
+		
+		background-image: url("images/1.jpg")
+	}
+	20%{
+		
+		background-image: url("images/2.jpeg")
+	}
+	40%{
+		
+		background-image: url("images/3.jpeg")
+	}
+	60%{
+		
+		background-image: url("images/5.jpeg")
+	}
+	80%{
+		
+		background-image: url("images/4.jpeg")
+	}
+	
+	
+}
+
+
+@keyframes slideBr {
+	
+	0%{
+		
+		background-image: url("images/Branding/1.jpg")
+	}
+	20%{
+		
+		background-image: url("images/Branding/2.jpg")
+	}
+	40%{
+		
+		background-image: url("images/Branding/3.jpg")
+	}
+	60%{
+		
+		background-image: url("images/Branding/4.jpg")
+	}
+	80%{
+		
+		background-image: url("images/Branding/5.jpg")
+	}
+	
+	
+}
+
+@keyframes slideWed {
+	
+	0%{
+		
+		background-image: url("images/wedding/1.jpg")
+	}
+	20%{
+		
+		background-image: url("images/wedding/2.jpg")
+	}
+	40%{
+		
+		background-image: url("images/wedding/3.jpg")
+	}
+	60%{
+		
+		background-image: url("images/wedding/4.jpg")
+	}
+	80%{
+		
+		background-image: url("images/wedding/5.jpg")
+	}
+	
+	
+}
+
+@keyframes slidePort {
+	
+	0%{
+		
+		background-image: url("images/Model/1.jpg")
+	}
+	20%{
+		
+		background-image: url("images/Model/2.jpg")
+	}
+	40%{
+		
+		background-image: url("images/Model/6.jpg")
+	}
+	60%{
+		
+		background-image: url("images/Model/5.jpg")
+	}
+	80%{
+		
+		background-image: url("images/Model/4.jpg")
+	}
+	
+	
+}
+
+@keyframes slideKid {
+	
+	0%{
+		
+		background-image: url("images/kids/1.jpg")
+	}
+	20%{
+		
+		background-image: url("images/kids/2.jpg")
+	}
+	40%{
+		
+		background-image: url("images/kids/3.jpg")
+	}
+	60%{
+		
+		background-image: url("images/kids/5.jpg")
+	}
+	80%{
+		
+		background-image: url("images/kids/4.jpg")
+	}
+	
+	
+}
+
+
+
