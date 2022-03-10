@@ -8,10 +8,12 @@
 <body>
 	<?php 
 
-if(!isset($_POST['uname']) || !isset($_POST['pass'])){  //Redirect somewhere 
+if(!isset($_POST['uname']) || !isset($_POST['pass'])){  
+	header("Location: contactus.php");
+	//Redirect somewhere 
 } 
 
-$ourFileName = $_POST['uname'] ."users.txt";
+$ourFileName = $_POST['uname'] ."_pass.txt";
 
 $ourFileHandle = fopen($ourFileName, 'w') or die("can't open file");
 
