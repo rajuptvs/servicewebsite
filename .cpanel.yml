@@ -4,4 +4,3 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/devutkmy/public_html/
     - /bin/cp -R * $DEPLOYPATH
-    df_init[['title','type','release_year','rating','genres','duration','description','country','director','cast']]
