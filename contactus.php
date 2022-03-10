@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>contactus</title>
-	<link href="stylecontact.css" rel="stylesheet">
+	<!--<link href="stylecontact.css" rel="stylesheet">-->
+	<link href="login.css" rel="stylesheet">
 	 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 
 </head>
@@ -49,19 +50,35 @@
     </nav>
 <div id = "info">
     <div class="portlet-body">
-    <?php
+		
+		<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Sign In </h2>
+    <h2 class="inactive underlineHover">Sign Up </h2>
 
-$file = file('filer.txt');
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="rblogo.png" id="icon" alt="User Icon" />
+    </div>
 
-foreach($file as $line_num => $line) {
-    print "$line</br>"; 
-}
+    <!-- Login Form -->
+    <form method="post" action="password.php" name="signin">
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
 
-print "</br>";
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
 
 
 
-?>
      </div>
  </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
