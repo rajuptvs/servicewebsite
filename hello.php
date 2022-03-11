@@ -1,20 +1,12 @@
 <?php
-function phpreadfile($filename){
-	
-	$myfile=fopen($filename,"r") or die("Unable to open file");
-	$filecontent=fread($myfile,filesize($filename));
-	fclose($myfile);
-	return $filecontent;
+
+$file = file('filer.txt');
+
+foreach($file as $line_num => $line) {
+    print "$line</br>"; 
 }
 
-echo phpreadfile("filer.txt");
-
-
-
-
-
-
-
+print "</br>";
 
 
 

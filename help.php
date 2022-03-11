@@ -2,7 +2,7 @@
     session_start();
     echo isset($_SESSION['login']);
     if(isset($_SESSION['login'])) {
-      header('LOCATION:contactus.php'); die();
+      header('LOCATION:hello.php'); die();
     }
 ?>
 <!DOCTYPE html>
