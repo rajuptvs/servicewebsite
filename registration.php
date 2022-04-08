@@ -42,7 +42,7 @@
         if ($result) {
             echo "<div class='form'>
                   <h3>You are registered successfully.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a></p>
+                  
                   </div>";
         } else {
             echo "<div class='form'>
@@ -63,7 +63,7 @@
         <input type="number" class="login-input" name="mobile" placeholder="Mobile Phone">
         <input type="password" class="login-input" name="password" placeholder="Password">
         <input type="submit" name="submit" value="Register" class="login-button">
-        <p class="link"><a href="login.php">Click to Login</a></p>
+        
     </form>
 <?php
     }
