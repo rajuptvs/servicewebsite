@@ -18,9 +18,6 @@ if ($conn->connect_error){
 $firstName = $_POST['searchbyname'];
 $emailID = $_POST['searchbyemail'];
 $cellPhone = $_POST['searchbyphone'];
-#$sql = "select * from Users where username like '%$search%' OR emailID like '$emailID' OR cellPhone like '$cellPhone'";
-
-
 $sql = "Select * from Users where firstName like '$firstName' OR emailID like '$emailID' OR cellPhone like '$cellPhone'";
 $result = $conn->query($sql);
 
