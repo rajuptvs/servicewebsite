@@ -1,6 +1,6 @@
 <?php
 $curl_handle = curl_init();
-                    curl_setopt($curl_handle, CURLOPT_URL, "http://rryella.com/sections/contacts.php");
+                    curl_setopt($curl_handle, CURLOPT_URL, "https://iamraju.tech/search.html");
                     curl_setopt($curl_handle, CURLOPT_HEADER, 0);
                     curl_setopt($curl_handle,CURLOPT_RETURNTRANSFER,true);
                     $contents = curl_exec($curl_handle);
